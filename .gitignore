@@ -1,0 +1,46 @@
+# === General ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+.env
+.vscode/
+.idea/
+
+# === Python / Flask (backend/) ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+backend/.env
+backend/instance/
+backend/*.sqlite3
+backend/*.db
+backend/.pytest_cache/
+backend/migrations/
+backend/venv/
+backend/.coverage
+
+# === React (frontend/) ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Testing and coverage
+frontend/coverage/
+frontend/jest-test-results.json
+
+# React tooling
+frontend/.cache/
+frontend/.next/
+frontend/.turbo/
+frontend/.eslintcache
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
